@@ -43,8 +43,9 @@ void readFileKnapSack(const char* nome_arquivo, int* capacidade, int** valores, 
             fclose(file);
             exit(1);
         }
+        
     }
-
+    
     fclose(file);
 }
 

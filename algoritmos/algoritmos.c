@@ -3,9 +3,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-
-
-
 int knapsack_dinamica(int W, int w[], int v[], int n,double* tempo_execucao) {
 
     // essa matriz representa o valor máximo que conseguimos com os primeiros i itens e com
